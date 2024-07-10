@@ -62,4 +62,67 @@ body {
   color: rgb(165, 36, 36);
   text-decoration: none;
 }
+
 /* end header */
+
+/* start main */
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 53px;
+}
+
+.wrapper-text {
+  padding-top: 10px;
+}
+
+.main-name {
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.job-main-section {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.buy-photoshoot {
+  color: rgb(165, 36, 36);
+  font-size: 18px;
+  font-weight: 500;
+  width: 336px;
+  height: 60px;
+  border: 1px solid rgb(165, 36, 36);
+  background: rgb(255, 255, 255);
+  margin: 20px 0 10px 0;
+}
+
+.buy-photoshoot:hover {
+  color: rgb(16, 16, 16);
+  transition: 0, 4s;
+}
+
+.wrapper-main-foto {
+  width: 674px;
+  height: 677px;
+}
+/* end main */
+
+/* start about-julia-section-1 */
+
+.about-julia-section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.foto-left-section {
+  width: 278px;
+  height: 371px;
+}
