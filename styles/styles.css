@@ -112,17 +112,130 @@ body {
 }
 /* end main */
 
-/* start about-julia-section-1 */
+/* start about-julia-section */
 
-.about-julia-section-1 {
+.about-julia-section {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 50px;
+  gap: 100px;
   margin-top: 40px;
 }
 
+.h2-julia {
+  color: rgb(35, 35, 35);
+  font-size: 64px;
+  font-weight: 700;
+  text-wrap: nowrap;
+}
+
 .foto-left-section {
+  width: 344px;
+  height: 561px;
+  box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+}
+
+.foto-left-section img {
   width: 278px;
   height: 371px;
+  position: relative;
+  top: 50px;
+  left: 100px;
 }
+
+.foto-left-section figcaption {
+  color: rgb(165, 36, 36);
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  top: 100px;
+  left: 10px;
+  text-align: center;
+}
+
+.presentation-julia {
+  color: rgb(165, 36, 36);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.presentation-text {
+  color: rgb(35, 35, 35);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.wrapper-right-section {
+  margin: 20px 0 0 10px;
+  position: relative;
+  padding: 0 10px;
+  top: 182px;
+  left: 20px;
+}
+
+.background {
+  box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  width: 567px;
+  height: 330px;
+  position: relative;
+  z-index: -1;
+  top: 63px;
+  left: 90px;
+}
+
+.foto-right-section img {
+  width: 642px;
+  height: 268px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 276px;
+}
+
+/* end about-julia-section  */
+
+/* start portfolio-julia */
+
+.portfolio-julia {
+  margin: 0 auto;
+}
+.wrapper-pictures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 377px;
+  height: 567px;
+}
+
+.portfolio-item figure {
+  margin: 0;
+}
+
+.portfolio-h6 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 5px 5px 5px 0;
+}
+
+.portfolio-item button {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(165, 36, 36);
+  width: 202px;
+  height: 60px;
+}
+.portfolio-item button a {
+  color: rgb(165, 36, 36);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* end portfolio-julia */
